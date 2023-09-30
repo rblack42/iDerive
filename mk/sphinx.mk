@@ -1,3 +1,7 @@
+.PHONY: docsprep
+docsprep:
+	mkdir -p docs/_images/tikz
+
 .PHONY:	docs
 docs:	changes	## run Sphinx to build html pages
 	cd rst && \

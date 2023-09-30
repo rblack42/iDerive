@@ -4,33 +4,36 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
 sys.path.insert(0, os.path.abspath('.'))
+import cloud_sptheme as csp
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'iDerive'
+project = 'iMath'
 copyright = '2023, Roie R. Black'
 author = 'Roie R. Black'
 
-# The full version, including alpha/beta/rc tags
 release = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
 
 extensions = [
-        'sphinx_rtd_theme',
-        'sphinx_ext.wordcount',
         'sphinxcontrib.bibtex',
-        'sphinxcontrib.programoutput',
+        'sphinx_ext.wordcount',
         'sphinx.ext.autodoc',
         'sphinx.ext.viewcode',
         'sphinx.ext.autosummary',
-        'sphinx_ext.tikzimg',
+        'sphinx_ext.tikzimage',
 ]
 
-bibtex_bibfiles = ['references.bib']
+# Sphinx_ext.tikzimage extension
+# needs brew install poppler
 tikz_proc_suite = 'ImageMagick'
+tikz_latex_preamble = r"""
+\usepackage{amsmath}
+"""
+bibtex_bibfiles = ['references.bib']
 
 autodoc_member_order = "bysource"
 autodoc_default_options = {
@@ -55,9 +58,10 @@ rst_prolog = """
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'cloud'
+html_theme_path = [csp.get_theme_dir()]
+html_theme_options = { "roottarget": "index" }
+
 
 html_static_path = ['_static']
+

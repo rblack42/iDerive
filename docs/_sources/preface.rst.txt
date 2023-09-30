@@ -7,7 +7,7 @@ museums on the National Mall where I saw my first airplane:
 
 ..	image::	images/wright-flyer.png
 	:align: center
-	"width: 400
+	:width: 400
 
 My guide was Andy Tarapchak, a World War II B-26 bombrt pilot who survived over 70 missions over France and Germany. He told me countless stories about his very scary adventures flying during those missions, and explained a lot about all of the aviation-related displays we saw.
 

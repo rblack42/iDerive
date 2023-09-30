@@ -18,6 +18,8 @@ charset-normalizer==3.2.0
     # via requests
 click==8.1.7
     # via black
+cloud-sptheme==1.10.1.post20200504175005
+    # via -r requirements.in
 coverage[toml]==7.3.1
     # via
     #   -r requirements.in
@@ -130,7 +132,7 @@ snowballstemmer==2.2.0
 sphinx==7.2.6
     # via
     #   -r requirements.in
-    #   sphinx-rtd-theme
+    #   cloud-sptheme
     #   sphinxcontrib-applehelp
     #   sphinxcontrib-bibtex
     #   sphinxcontrib-devhelp
@@ -139,8 +141,6 @@ sphinx==7.2.6
     #   sphinxcontrib-qthelp
     #   sphinxcontrib-serializinghtml
     #   sphinxcontrib-spelling
-sphinx-rtd-theme==0.5.1
-    # via -r requirements.in
 sphinxcontrib-applehelp==1.0.7
     # via sphinx
 sphinxcontrib-bibtex==2.6.1

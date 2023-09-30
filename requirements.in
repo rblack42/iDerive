@@ -2,7 +2,8 @@ sphinx
 sphinxcontrib-bibtex
 sphinxcontrib-spelling
 sphinxcontrib-programoutput
-sphinx_rtd_theme
+Cloud-sptheme
+
 pytest
 pytest-cov
 coverage
