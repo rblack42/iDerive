@@ -4,18 +4,6 @@ iDerive - Assistant for Deriving Equation Sets
 :Email: roie.black@gmail.com
 :Docs: https://rblack42.github.io/iDerive
 
-This is a Python project that I use to derive finite difference equations
-for solutions of the full Navier-Stokes equations for fluid flow. The tool
-produced simply tracks the derivation steps and makes sure the rules are
-followed, and no terms are left out or signs flipped! Why did I write this?
-Don't ask!
-
-..	note::
-
-    This tool is not intended to do most of what *SymPy* can do. The human
-    operator is supposed to know what he/she is doing. It simply helps
-    eliminate silly mistakes!
-
 ..  start-badges
 
 ..  list-table::
@@ -45,3 +33,17 @@ Don't ask!
     :alt: Code Coverage"
 
 ..  end-badges
+
+This is a Python project that I use to derive finite difference equations
+for solutions of the full *Navier-Stokes* equations for fluid flow. The tool
+produced simply tracks the derivation steps and makes sure the rules are
+followed, and no terms are left out or signs flipped! Why did I write this?
+Don't ask!
+
+..	note::
+
+    This tool is not intended to do most of what *SymPy* can do. The human
+    operator is supposed to know what he/she is doing. It simply helps
+    eliminate silly mistakes!
+
+
