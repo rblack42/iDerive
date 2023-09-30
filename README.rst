@@ -22,7 +22,7 @@ Don't ask!
     :stub-columns: 1
 
     * - tests
-      - | |MacOS Tests| |Linux Tests| | Windows Tests|
+      - | |MacOS Tests| |Linux Tests| |Windows Tests| |
 
 
 .. |MacOS Tests| image::
