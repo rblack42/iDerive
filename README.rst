@@ -22,7 +22,7 @@ Don't ask!
     :stub-columns: 1
 
     * - tests
-      - | |MacOS Tests| |Linux Tests| |Windows Tests| |
+      - | |MacOS Tests| |Linux Tests| |Windows Tests| |coverage|
 
 
 .. |MacOS Tests| image::
@@ -39,5 +39,9 @@ Don't ask!
     https://github.com/rblack42/iDerive/actions/workflows/windows_unit_tests.yml/badge.svg
     :alt: Windows Unit Tests
     :target: https://github.com/rblack42/iDerive
+
+.. |coverage| image:: https://coveralls.io/repos/github/rblack42/iDerive/badge.svg?branch=master
+    :target: https://coveralls.io/github/rblack42/iDerive?branch=master
+    :alt: Code Coverage"
 
 ..  end-badges
