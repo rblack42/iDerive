@@ -1,14 +1,20 @@
-iMath - Assistant for Deriving Equation Sets
-############################################
+iDerive - Assistant for Deriving Equation Sets
+##############################################
 :Author: Roie R. Black
 :Email: roie.black@gmail.com
-:Docs: https://rblack42.github.io/iMath
+:Docs: https://rblack42.github.io/iDerive
 
-This is a Python-Qt6 project that I use to derive finite difference equations for solutions ot the full Navier-Stokes equations for fluid flow. The tool produced simply tracks the derivation steps and makes sure the rules are followed, and not terms are left out or signs flipped! Why did I write this? Don't ask!
+This is a Python project that I use to derive finite difference equations
+for solutions of the full Navier-Stokes equations for fluid flow. The tool
+produced simply tracks the derivation steps and makes sure the rules are
+followed, and no terms are left out or signs flipped! Why did I write this?
+Don't ask!
 
 ..	note::
 
-	This tool is not intended to do most of what *SymPy* can do. The human operator is supposed to know what he/she is doing. It simply helps eliminate silly mistakes!
+    This tool is not intended to do most of what *SymPy* can do. The human
+    operator is supposed to know what he/she is doing. It simply helps
+    eliminate silly mistakes!
 
 ..  start-badges
 
@@ -20,18 +26,18 @@ This is a Python-Qt6 project that I use to derive finite difference equations fo
 
 
 .. |MacOS Tests| image::
-    https://github.com/rblack42/iMath/actions/workflows/macos_unit_tests.yml/badge.svg
+    https://github.com/rblack42/iDerive/actions/workflows/macos_unit_tests.yml/badge.svg
     :alt: MacOS Unit Tests
-    :target: https://github.com/rblack42/iMath
+    :target: https://github.com/rblack42/iDerive
 
 .. |Linux Tests| image::
-    https://github.com/rblack42/iMath/actions/workflows/linux_unit_tests.yml/badge.svg
-    :alt: MacOS Unit Tests
-    :target: https://github.com/rblack42/QtMMD
+    https://github.com/rblack42/iDerive/actions/workflows/linux_unit_tests.yml/badge.svg
+    :alt: Linux Unit Tests
+    :target: https://github.com/rblack42/iDerive
 
 .. |Windows Tests| image::
-    https://github.com/rblack42/iMath/actions/workflows/windows_unit_tests.yml/badge.svg
-    :alt: MacOS Unit Tests
-    :target: https://github.com/rblack42/iMath
+    https://github.com/rblack42/iDerive/actions/workflows/windows_unit_tests.yml/badge.svg
+    :alt: Windows Unit Tests
+    :target: https://github.com/rblack42/iDerive
 
 ..  end-badges
